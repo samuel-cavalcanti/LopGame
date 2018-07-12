@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/corvodemoniacosatanista666.png-bfe650e9944f90646db74f98af4637f6.stex"
+path="res://.import/monstro(origin).png-605720db3d3257c1c2fd68aa0ae93396.stex"
 
 [deps]
 
-source_file="res://Images/png/corvodemoniacosatanista666.png"
-dest_files=[ "res://.import/corvodemoniacosatanista666.png-bfe650e9944f90646db74f98af4637f6.stex" ]
+source_file="res://Images/png/monster/monstro(origin).png"
+dest_files=[ "res://.import/monstro(origin).png-605720db3d3257c1c2fd68aa0ae93396.stex" ]
 
 [params]
 

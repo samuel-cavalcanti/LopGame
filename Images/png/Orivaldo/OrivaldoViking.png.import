@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/ECT(origin).png-e1ac84d99a8208ecebe8532b3c316c4f.stex"
+path="res://.import/OrivaldoViking.png-a2d5e74eedb620c755b976009530f3a8.stex"
 
 [deps]
 
-source_file="res://Images/png/ECT(origin).png"
-dest_files=[ "res://.import/ECT(origin).png-e1ac84d99a8208ecebe8532b3c316c4f.stex" ]
+source_file="res://Images/png/Orivaldo/OrivaldoViking.png"
+dest_files=[ "res://.import/OrivaldoViking.png-a2d5e74eedb620c755b976009530f3a8.stex" ]
 
 [params]
 

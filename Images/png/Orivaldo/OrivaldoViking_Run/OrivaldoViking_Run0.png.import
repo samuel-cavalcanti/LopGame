@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/OrivaldoViking_Run0.png-0a04cbff15c2a1d19d6dc21a8691e1a0.stex"
+path="res://.import/OrivaldoViking_Run0.png-ab242bc761b09c416aae0500ae8d5344.stex"
 
 [deps]
 
-source_file="res://Images/png/OrivaldoViking_Run/OrivaldoViking_Run0.png"
-dest_files=[ "res://.import/OrivaldoViking_Run0.png-0a04cbff15c2a1d19d6dc21a8691e1a0.stex" ]
+source_file="res://Images/png/Orivaldo/OrivaldoViking_Run/OrivaldoViking_Run0.png"
+dest_files=[ "res://.import/OrivaldoViking_Run0.png-ab242bc761b09c416aae0500ae8d5344.stex" ]
 
 [params]
 

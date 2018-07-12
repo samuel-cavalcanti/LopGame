@@ -1,8 +1,28 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=14 format=2]
 
 [ext_resource path="res://Images/png/ECT.png" type="Texture" id=1]
 [ext_resource path="res://maps/player_script/Player.gd" type="Script" id=2]
 [ext_resource path="res://Images/png/OrivaldoViking.png" type="Texture" id=3]
+[ext_resource path="res://Images/png/OrivaldoViking_Run/OrivaldoViking_Run0.png" type="Texture" id=4]
+[ext_resource path="res://Images/png/OrivaldoViking_Run/OrivaldoViking_Run1.png" type="Texture" id=5]
+[ext_resource path="res://Images/png/OrivaldoViking_Run/OrivaldoViking_Run2.png" type="Texture" id=6]
+[ext_resource path="res://Images/png/OrivaldoViking_Run/OrivaldoViking_Run3.png" type="Texture" id=7]
+[ext_resource path="res://Images/png/OrivaldoViking_Run/OrivaldoViking_Run4.png" type="Texture" id=8]
+[ext_resource path="res://Images/png/OrivaldoViking_Run/OrivaldoViking_Run.png" type="Texture" id=9]
+
+[sub_resource type="SpriteFrames" id=4]
+
+animations = [ {
+"frames": [ ExtResource( 3 ) ],
+"loop": true,
+"name": "Idle",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ) ],
+"loop": true,
+"name": "Run",
+"speed": 20.0
+} ]
 
 [sub_resource type="RectangleShape2D" id=1]
 
@@ -43,11 +63,12 @@ collision/safe_margin = 0.08
 script = ExtResource( 2 )
 _sections_unfolded = [ "Transform" ]
 
-[node name="Sprite2" type="Sprite" parent="Player" index="0"]
+[node name="Sprite2" type="AnimatedSprite" parent="Player" index="0"]
 
 position = Vector2( -48.9738, -38.0914 )
 scale = Vector2( 1.20103, 0.628353 )
-texture = ExtResource( 3 )
+frames = SubResource( 4 )
+animation = "Idle"
 offset = Vector2( 40.4682, 59.9798 )
 _sections_unfolded = [ "Transform" ]
 
@@ -135,6 +156,7 @@ _sections_unfolded = [ "Material", "Transform" ]
 
 [node name="Top_wall" type="StaticBody2D" parent="Walls" index="2"]
 
+editor/display_folded = true
 position = Vector2( -714.346, 20.9423 )
 scale = Vector2( 28.258, 0.141624 )
 input_pickable = false

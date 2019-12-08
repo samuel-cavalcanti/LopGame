@@ -8,7 +8,7 @@ const velMons = 20
 
 func _ready():
 	initPos = $'.'.position.y
-	finalPos = initPos  - 15
+	finalPos = initPos  - 10
 
 	
 	
